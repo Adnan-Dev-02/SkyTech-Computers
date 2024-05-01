@@ -1,6 +1,7 @@
 // Layout.js
 import { Outlet, Link } from "react-router-dom";
 import Logo from './images/1.png';
+import '../App.css'
 
 const Layout = () => {
   return (
@@ -8,7 +9,7 @@ const Layout = () => {
       <nav class="navbar navbar-expand-lg border-body" data-bs-theme="dark">
 
         <div class="container-fluid">
-          <div class="col-sm-6 justify-content-center d-flex align-items-center">
+          <div class="col-sm-6 justify-content justify-content-center d-flex align-items-center">
             <img src={Logo} alt="" height="50px" />
             <h1 class="navbar-brand d-inline m-2">SkyTech Computers</h1>
           </div>
