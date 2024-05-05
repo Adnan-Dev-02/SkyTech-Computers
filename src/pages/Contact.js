@@ -5,8 +5,29 @@ const Contact = () => {
     <div className='row container-fluid m-0 w-100 p-5'>
       <div className="col-sm-6 p-lg-5">
         <h2 className='mb-5'>Get in touch</h2>
-        <i class="fa-solid fa-phone text-primary me-2"></i>
-        <p className='d-inline'>+91 8176072903</p>
+        <div className='mb-2'>
+          <i class="fa-solid fa-phone text-primary me-2"></i>
+          <p className='d-inline'>+91 8176072903</p>
+        </div>
+        <div className='mb-4'>
+          <i class="fa-solid fa-phone text-primary me-2"></i>
+          <p className='d-inline'>+91 8805676919</p>
+        </div>
+        <div className='mb-2'>
+          <i class="fa-solid fa-envelope me-2 text-danger"></i>
+          <p className='d-inline'>adnan.na.2002@gmail.com</p>
+        </div>
+        <div className='mb-4'>
+          <i class="fa-solid fa-envelope me-2 text-danger"></i>
+          <p className='d-inline'>+91 8805676919</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-location-dot me-2 text-success"></i>
+          <p className='d-inline'>Jaunpur, UP</p>
+        </div>
+
+
+
       </div>
       <div className="col-sm-6">
         <form action="" className='p-5  card'>

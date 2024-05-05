@@ -26,8 +26,8 @@ function Home() {
     <div className=' container-fluid m-0 row p-0'>
 
 
-      <div className='col-sm-6 p-5'>
-        <h1>Welcome to SkyTech Computers</h1>
+      <div className='col-sm-6 p-3 p-lg-5'>
+        <h1>Welcome to SkyTech Computers</h1> 
         <ReactTyped
           strings={[
             'All-In-One Services',
@@ -42,13 +42,13 @@ function Home() {
         </ReactTyped>
         <p className='mt-3'>SkyTech Computers is a dynamic technology company that provides a wide range of services to meet diverse digital needs. Their expertise spans various domains, ensuring comprehensive solutions for clients. From CCTV installation and website development to IT infrastructure services and bespoke software development, SkyTech Computers delivers tailored solutions with precision and excellence. Whether you are securing your premises or enhancing your online presence, SkyTech Computers is your trusted partner.</p>
       </div>
-      <div className='col-sm-6 p-5'>
+      <div className='col-sm-6 p-3 p-lg-5'>
         <img src={vector} alt="" width="100%" />
       </div>
       <div className='container-fluid m-0 p-0'>
         <hr className='mx-5' />
         <h2 className='text-center mb-4'>Technologies We Use</h2>
-        <marquee behavior="" direction="right" scrollamount="10" style={{ height: "150px" }} className="mb-5">
+        <marquee behavior="" direction="right" scrollamount="10" style={{ height: "150px" }} className="">
           <img className='mx-5 language' src={htmlimg} alt="" height={"100px"} />
           <img className='mx-5 language' src={cssimg} alt="" height={"100px"} />
           <img className='mx-5 language' src={jsimg} alt="" height={"100px"} />
@@ -59,7 +59,7 @@ function Home() {
         </marquee>
         <hr className='mx-5' />
       </div>
-      <div className='p-5'>
+      <div className='p-lg-5 p-3'>
         <h2 className='mb-3'>Our Projects</h2>
         <div className="row container-fluid m-0 mb-3">
           <div className="col-sm-4">
@@ -119,7 +119,7 @@ function Home() {
       </div>
 
       <hr className='me-5' />
-      <div className="row p-5">
+      <div className="row p-lg-5 p-3">
         <h2 className='mb-3'>My Services</h2>
         <div className="row container-fluid m-0 justify-content-around">
           <div className='col-lg-2 col-md-4'>
