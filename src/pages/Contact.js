@@ -19,9 +19,9 @@ const Contact = () => {
         </div>
         <div className='mb-4'>
           <i class="fa-solid fa-envelope me-2 text-danger"></i>
-          <p className='d-inline'>+91 8805676919</p>
+          <p className='d-inline'>shubhamyadav09259@gmail.com </p>
         </div>
-        <div>
+        <div className='mb-4'>
           <i class="fa-solid fa-location-dot me-2 text-success"></i>
           <p className='d-inline'>Jaunpur, UP</p>
         </div>
@@ -30,8 +30,8 @@ const Contact = () => {
 
       </div>
       <div className="col-sm-6">
-        <form action="" className='p-5  card'>
-          <h3 className='mb-3'>Send Message</h3>
+        <form action="" className='p-2 p-lg-5 shadow card'>
+          <h3 className='mb-3 p-2'>Send Message</h3>
           <input type="text" name="" id="" placeholder='Name' className='p-2 rounded m-2 border border-2' />
           <input type="email" name="" id="" placeholder='Email' className='p-2 rounded m-2 border border-2' />
           <textarea name="message" id="" cols="30" rows="10" className='p-2 rounded m-2 border border-2' placeholder='Message'></textarea>

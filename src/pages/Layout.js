@@ -6,7 +6,7 @@ import '../App.css'
 const Layout = () => {
   return (
     <>
-      <nav class="navbar navbar-expand-lg border-body" data-bs-theme="dark">
+      <nav class="navbar navbar-expand-lg border-body sticky-top" data-bs-theme="dark">
 
         <div class="container-fluid">
           <div class="col-sm-6 justify-content justify-content-center d-flex align-items-center">
@@ -22,7 +22,7 @@ const Layout = () => {
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item ">
-                  <Link class="nav-link active" aria-current="page" to="/Home">Home</Link>
+                  <Link class="nav-link" to="/Home">Home</Link>
                 </li>
                 <li class="nav-item">
                   <Link class="nav-link" to="/About">About</Link>
