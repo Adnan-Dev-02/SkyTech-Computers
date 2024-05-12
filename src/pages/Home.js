@@ -81,7 +81,7 @@ function Home() {
                 <h5 class="card-title">News INDIA</h5>
                 <p class="card-text">This is a responsive and dynamic News Portal website.</p>
                 <p>Technologies used - HTML, CSS, Bootstrap, Python with Django  </p>
-                <a href="" class="btn btn-outline-primary">Live Demo</a>
+                <a href="https://github.com/Adnan-Dev-02/News-INDIA" class="btn btn-outline-primary">Live Demo</a>
               </div>
             </div>
           </div>
@@ -112,7 +112,7 @@ function Home() {
               <div class="card-body">
                 <h5 class="card-title">Tattoo Studio</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-outline-primary">Live Demo</a>
+                <a href="https://shubham3185.github.io/TattooStudio/" class="btn btn-outline-primary">Live Demo</a>
               </div>
             </div>
           </div>
@@ -120,8 +120,8 @@ function Home() {
         <hr className='mt-5' />
       </div>
 
-    
-      <Footer/>
+
+      <Footer />
     </div>
   )
 }
