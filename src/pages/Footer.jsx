@@ -6,7 +6,7 @@ const Footer = () => {
         <div className='p-5 bg-dark text-white row container-fluid w-100 m-0'>
             <div className="col-sm-4 p-3">
                 <div className=' d-flex align-items-center'>
-                    <img src={logo} alt="" height="50px" className='logo-bw' />
+                    <img src={logo} alt="" height="50px"/>
                     <h5 className="d-inline m-2">SkyTech Computers</h5>
                 </div>
                 <div className='mt-3'>
