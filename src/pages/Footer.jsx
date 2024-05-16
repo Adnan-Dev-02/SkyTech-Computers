@@ -3,7 +3,7 @@ import logo from './images/1.png'
 
 const Footer = () => {
     return (
-        <div className='p-5 bg-dark text-white row container-fluid w-100 m-0'>
+        <footer className='p-4 p-lg-5 bg-dark text-white row container-fluid w-100 m-0'>
             <div className="col-sm-4 p-3">
                 <div className=' d-flex align-items-center'>
                     <img src={logo} alt="" height="50px"/>
@@ -28,7 +28,7 @@ const Footer = () => {
                 <i class="me-4 fs-4 fa-brands fa-instagram"></i>
                 <i class="me-4 fs-4 fa-brands fa-linkedin"></i>
             </div>
-        </div>
+        </footer>
     )
 }
 

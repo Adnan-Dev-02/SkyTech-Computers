@@ -15,6 +15,7 @@ const Contact = () => {
       userEmail: email,
       userMessage: message
     });
+    alert("Your message has been sent.")
   };
 
 
@@ -54,9 +55,9 @@ const Contact = () => {
         <div className="col-sm-6 p-0">
           <form action="" className='p-2 p-lg-5 shadow card' onSubmit={handleSubmit}>
             <h3 className='mb-3 p-2'>Send Message</h3>
-            <input type="text" onChange={(e)=>{setName(e.target.value)}} name="" value={name} id="" placeholder='Name' className='p-2 rounded m-2 border border-2' />
-            <input type="email" onChange={(e)=>{setEmail(e.target.value)}} name="" id="" value={email} placeholder='Email' className='p-2 rounded m-2 border border-2' />
-            <textarea name="message" onChange={(e)=>{setMessage(e.target.value)}} id="" cols="30" value={message} rows="10" className='p-2 rounded m-2 border border-2' placeholder='Message'></textarea>
+            <input required type="text" onChange={(e)=>{setName(e.target.value)}} name="" value={name} id="" placeholder='Name' className='p-2 rounded m-2 border border-2' />
+            <input required type="email" onChange={(e)=>{setEmail(e.target.value)}} name="" id="" value={email} placeholder='Email' className='p-2 rounded m-2 border border-2' />
+            <textarea required name="message" onChange={(e)=>{setMessage(e.target.value)}} id="" cols="30" value={message} rows="10" className='p-2 rounded m-2 border border-2' placeholder='Message'></textarea>
             <button className='btn btn-primary m-2'>Send</button>
           </form>
         </div>
