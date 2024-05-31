@@ -1,6 +1,5 @@
 import React from 'react'
 import Footer from './Footer'
-import webdev from './images/webdev.jpeg'
 
 const Services = () => {
     return (
@@ -11,7 +10,7 @@ const Services = () => {
                 <div className='d-flex align-items-center justify-content-center row'>
                     <div className="col-sm-3 p-3">
                         <div class="card shadow service-card" style={{}}>
-                            <div class="card-body p-4">
+                            <div class="card-body p-4 pt-3">
                                 <h5 class="card-title">Website Development</h5>
                                 <p class="card-text service-card-text">Static Website | Dynamic Website | Responsive Website | Website Redesign | Ecommerce Website & more</p>
                             </div>

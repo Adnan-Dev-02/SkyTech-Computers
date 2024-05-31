@@ -5,11 +5,14 @@ import newsindia from './images/newsindia.png'
 import htmlimg from './images/html.png'
 import cssimg from './images/css.png'
 import reactimg from './images/react.png'
+import pizza from './images/pizza.png'
 import jsimg from './images/js.jpg'
 import node from './images/node.png'
 import tattoostudio from './images/tattoostudio.png'
 import mongo from './images/mongo.png'
 import mysql from './images/mysql.png'
+import shiva from './images/shiva.png'
+import portfolio from './images/portfolio.png'
 import paradise from './images/paradise.png'
 import '../App.css'
 import { ReactTyped } from 'react-typed';
@@ -81,11 +84,12 @@ function Home() {
           </div>
           <div className="col-sm-4 p-2">
             <div class="card shadow">
-              <img class="card-img-top" src={newsindia} alt="Card image cap" />
+              <img class="card-img-top" src={portfolio} alt="Card image cap" />
               <div class="card-body">
                 <h5 class="card-title">Portfolio</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-outline-primary">Live Demo</a>
+                <p class="card-text">A portfolio website made for myself</p>
+                <p>Technologies used - React JS | Bootstrap | JavaScript</p>
+                <a href="" class="btn btn-outline-primary">Live Demo</a>
               </div>
             </div>
           </div>
@@ -108,6 +112,28 @@ function Home() {
                 <p class="card-text">A demo website made for a Tattoo Studio.</p>
                 <p class="card-text">Technologies used - HTML | CSS | Bootstrap</p>
                 <a href="https://shubham3185.github.io/TattooStudio/" class="btn btn-outline-primary">Live Demo</a>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-4 p-2">
+            <div class="card shadow">
+              <img class="card-img-top" src={shiva} alt="Card image cap" />
+              <div class="card-body">
+                <h5 class="card-title">Shiva Tours Group</h5>
+                <p class="card-text">A website made for a travel agency based in Manali, Himachal Pradesh</p>
+                <p class="card-text">Technologies used - React JS | Bootstrap | JavaScript</p>
+                <a href="https://shivaholidays.site" class="btn btn-outline-primary">Live Demo</a>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-4 p-2">
+            <div class="card shadow">
+              <img class="card-img-top" src={pizza} alt="Card image cap" />
+              <div class="card-body">
+                <h5 class="card-title">Pizza Restaurant</h5>
+                <p class="card-text">A demo website made for a pizza restaurant</p>
+                <p class="card-text">Technologies used - HTML | CSS | JavaScript | Bootstrap | Node JS</p>
+                <a href="https://shivaholidays.vercel.app/" class="btn btn-outline-primary">Live Demo</a>
               </div>
             </div>
           </div>

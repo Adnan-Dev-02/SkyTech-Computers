@@ -1,19 +1,9 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .nav-link {
   color: rgba(0, 0, 0, 0.5);
   text-transform: uppercase;
-  font-size: 0.8em;
+  font-size: 1em;
   letter-spacing: 2px;
 }
-
 
 .service-card:hover {
 
@@ -27,7 +17,7 @@
 }
 
 .service-card {
-  height: 10rem;
+  min-height: 12rem;
   transition: all ease 0.5s;
 }
 
@@ -37,22 +27,6 @@
 
 .nav-link:hover {
   color: black;
-}
-
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 nav {

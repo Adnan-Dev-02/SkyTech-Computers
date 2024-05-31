@@ -18,9 +18,9 @@ const Footer = () => {
                 <p className='text-secondary mb-1'>Location</p>
                 <p>Jaunpur, U.P. - 222001</p>
                 <p className='text-secondary mb-1'>Email</p>
-                <p>adnan.na.2002@gmail.com</p>
-                <p className='text-secondary mb-1'>Phone</p>
-                <p className='mb-0'>8176072903</p>
+                <a href='mailto:adnan.na.2002@gmail.com' className='text-decoration-none text-white'>adnan.na.2002@gmail.com</a>
+                <p className='text-secondary mb-1 mt-3'>Phone</p>
+                <a href="tel:+918176072903" className='mb-0 text-decoration-none text-white'>+91 81760 72903</a>
             </div>
             <div className="col-sm-4 p-3">
                 <h5 className='mb-4'>Get Social</h5>
