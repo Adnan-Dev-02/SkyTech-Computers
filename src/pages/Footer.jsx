@@ -24,9 +24,16 @@ const Footer = () => {
             </div>
             <div className="col-sm-4 p-3">
                 <h5 className='mb-4'>Get Social</h5>
-                <i class="me-4 fs-4 fa-brands fa-square-facebook"></i>
-                <i class="me-4 fs-4 fa-brands fa-instagram"></i>
-                <i class="me-4 fs-4 fa-brands fa-linkedin"></i>
+
+                <a href='https://www.facebook.com/profile.php?id=61558528687781&mibextid=kFxxJD'>
+                    <i class="me-4 fs-4 fa-brands fa-square-facebook text-light"></i>
+                </a>
+                <a href='https://www.instagram.com/skytech__computers/'>
+                    <i class="me-4 fs-4 fa-brands fa-instagram text-light"></i>
+                </a>
+                <a href='https://www.linkedin.com/company/102875725/admin/dashboard/'>
+                    <i class="me-4 fs-4 fa-brands fa-linkedin text-light"></i>
+                </a>
             </div>
         </footer>
     )

@@ -133,12 +133,11 @@ function Home() {
                 <h5 class="card-title">Pizza Restaurant</h5>
                 <p class="card-text">A demo website made for a pizza restaurant</p>
                 <p class="card-text">Technologies used - HTML | CSS | JavaScript | Bootstrap | Node JS</p>
-                <a href="https://shivaholidays.vercel.app/" class="btn btn-outline-primary">Live Demo</a>
+                <a href="https://shubham3185.github.io/pizza/" class="btn btn-outline-primary">Live Demo</a>
               </div>
             </div>
           </div>
         </div>
-        <hr className='mt-5' />
       </div>
       <Footer />
     </div>

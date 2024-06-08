@@ -47,17 +47,23 @@ const Contact = () => {
 
           <h2 className='mt-5 mb-4'>Lets get social</h2>
           <div className='mb-5'>
-          <i class="me-4 fs-4 fa-brands fa-square-facebook text-primary"></i>
-          <i class="me-4 fs-4 fa-brands fa-instagram text-danger"></i>
-          <i class="me-4 fs-4 fa-brands fa-linkedin text-primary"></i>
+            <a href='https://www.facebook.com/profile.php?id=61558528687781&mibextid=kFxxJD'>
+              <i class="me-4 fs-4 fa-brands fa-square-facebook text-primary"></i>
+            </a>
+            <a href='https://www.instagram.com/skytech__computers/'>
+              <i class="me-4 fs-4 fa-brands fa-instagram text-danger"></i>
+            </a>
+            <a href='https://www.linkedin.com/company/102875725/admin/dashboard/'>
+              <i class="me-4 fs-4 fa-brands fa-linkedin text-primary"></i>
+            </a>
           </div>
         </div>
         <div className="col-sm-6 p-0">
           <form action="" className='p-2 p-lg-5 shadow card' onSubmit={handleSubmit}>
             <h3 className='mb-3 p-2'>Send Message</h3>
-            <input required type="text" onChange={(e)=>{setName(e.target.value)}} name="" value={name} id="" placeholder='Name' className='p-2 rounded m-2 border border-2' />
-            <input required type="email" onChange={(e)=>{setEmail(e.target.value)}} name="" id="" value={email} placeholder='Email' className='p-2 rounded m-2 border border-2' />
-            <textarea required name="message" onChange={(e)=>{setMessage(e.target.value)}} id="" cols="30" value={message} rows="10" className='p-2 rounded m-2 border border-2' placeholder='Message'></textarea>
+            <input required type="text" onChange={(e) => { setName(e.target.value) }} name="" value={name} id="" placeholder='Name' className='p-2 rounded m-2 border border-2' />
+            <input required type="email" onChange={(e) => { setEmail(e.target.value) }} name="" id="" value={email} placeholder='Email' className='p-2 rounded m-2 border border-2' />
+            <textarea required name="message" onChange={(e) => { setMessage(e.target.value) }} id="" cols="30" value={message} rows="10" className='p-2 rounded m-2 border border-2' placeholder='Message'></textarea>
             <button className='btn btn-primary m-2'>Send</button>
           </form>
         </div>

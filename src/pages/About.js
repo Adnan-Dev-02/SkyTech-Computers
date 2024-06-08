@@ -20,8 +20,6 @@ function About() {
           <li>Quality: Mediocrity has no place here. We obsess over quality, ensuring that every line of code and every camera angle meets our high standards.</li>
         </ul>
 
-
-
         <p className='fs-3'>Why SkyTech?</p>
         <ul className='ms-3'>
           <li>Fresh Perspectives: As students, we bring fresh perspectives and a hunger for knowledge. We’re not afraid to challenge conventions.</li>
@@ -29,7 +27,6 @@ function About() {
           <li>Customer-Centric: Your success is our success. We listen, adapt, and evolve based on your feedback.
             Reach for the Sky with Us</li>
         </ul>
-
 
         <p>Join us on this exhilarating journey. Whether you need a website that wows, a secure surveillance system, or simply a tech-savvy partner, SkyTech Technology is here to elevate your experience.</p>
 
